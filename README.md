@@ -136,6 +136,20 @@ Refer backend.ipynb
 5. **See Repair Recommendations**: Access repair recommendations based on the analysis.
 6. **Explore Cracked Images**: Explore additional cracked images for further analysis.
 
+## Screenshots
+1.Anamoly detection of Faulty Wire
+![image](https://github.com/iamvelyogesh/Airbus-Hackathon/assets/113898735/a4b93e5b-3668-4c32-b2c5-2b5983540ea1)
+2. Generative Adversarial Network model to find Faulty Wire(NOVELTY)
+![image](https://github.com/iamvelyogesh/Airbus-Hackathon/assets/113898735/a3fce2a1-c805-49a1-a542-2d55c1ddd9cc)
+3.Image analysis Damage Assesment and Repair Recomendations
+![image](https://github.com/iamvelyogesh/Airbus-Hackathon/assets/113898735/f87493ec-74e7-4488-8a24-683ab6ff334e)
+4.Fault Detection
+![image](https://github.com/iamvelyogesh/Airbus-Hackathon/assets/113898735/5987ae6a-0001-4988-9026-5f4e8bed6bad)
+
+A Pdf will be generated at the end named mereged report
+
+
+
 ## Contributors
 
 - Subiksha
