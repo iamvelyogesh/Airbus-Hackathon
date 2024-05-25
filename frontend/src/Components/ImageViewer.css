@@ -1,0 +1,46 @@
+/* Image Viewer Styles */
+
+.image-viewer1 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align images to the start of the container */
+  }
+  
+  .image-container1 {
+    margin: 15px;
+    width: 150px;
+    height: auto;
+    text-align: center;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .image-dimensions {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .secondary-button1 {
+    padding: 1rem 2.5rem;
+    background-color: rgb(15, 15, 98);
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;;
+    margin-left: 1000px;
+    margin-bottom: 30px;
+  }
