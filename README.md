@@ -4,6 +4,13 @@
 
 This project aims to develop a comprehensive web application for detecting damage on aircraft surfaces and identifying faulty wires in harnesses. Leveraging advanced imaging and analysis techniques, the tool provides accurate damage assessment and repair recommendations. Key functionalities include repair recommendations generation, faulty wire location identification, damage assessment using machine learning algorithms, image analysis, CAD 3D projection, and a user-friendly web interface.
 
+## For Backend Documnetation:-
+**navigate**:
+   ```bash
+   cd backend
+   ```
+Refer backend.ipynb
+
 ## Features
 
 - **Repair Recommendations**: Generate repair recommendations based on assessed damage and faulty wire locations.
