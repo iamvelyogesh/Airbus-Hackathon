@@ -4,7 +4,52 @@
 
 This project aims to develop a comprehensive web application for detecting damage on aircraft surfaces and identifying faulty wires in harnesses. Leveraging advanced imaging and analysis techniques, the tool provides accurate damage assessment and repair recommendations. Key functionalities include repair recommendations generation, faulty wire location identification, damage assessment using machine learning algorithms, image analysis, CAD 3D projection, and a user-friendly web interface.
 
-## For Backend Documnetation:-
+## Backend Documnetation:-
+# GAN-Based Anomaly Detection in Electrical Signals
+
+## Introduction
+
+In this notebook, we demonstrate the use of Generative Adversarial Networks (GANs) for detecting anomalies in electrical signals. The GAN model is trained to generate synthetic signals that closely resemble normal electrical signals. By comparing the real signals to the generated ones, we can identify anomalies.
+
+## Advantages of GANs over Traditional Anomaly Detection Methods
+
+### 1. Data Generation Capability
+GANs can generate synthetic data that resembles real data, which is useful when data is scarce. This ability allows GANs to create a comprehensive dataset for training, improving the model's performance in detecting anomalies.
+
+### 2. Unsupervised Learning
+GANs can learn the distribution of normal data without requiring labeled anomalies. This unsupervised learning approach is advantageous in real-world scenarios where labeled anomalies are rare or unavailable.
+
+### 3. Flexibility and Adaptability
+GANs can be adapted to various data types (e.g., images, time series, text) and different domains (e.g., cybersecurity, medical diagnostics, finance) due to their flexible architecture.
+
+### 4. Better Feature Representation
+The generator in GANs learns to capture the data distribution and can uncover complex patterns. This learned representation can be more effective for anomaly detection than handcrafted features used in traditional methods.
+
+### 5. Dynamic Anomaly Detection
+GANs can dynamically adapt to new types of anomalies by continuously learning from the data, identifying emerging patterns that were not present during the initial training phase.
+
+### 6. Robustness to Noise
+GANs, particularly when trained with noise, can become robust to variations and noise in the data, helping to distinguish between true anomalies and random noise.
+
+## Implementation Details
+
+### 1. Preprocessing Signals
+We use a low-pass filter to remove high-frequency noise from the signals.
+
+### 2. Training the GAN
+The GAN is trained using normal signal data, with the generator learning to produce synthetic signals and the discriminator learning to distinguish between real and fake signals.
+
+### 3. Generating and Processing Fake Signals
+We generate synthetic signals using the trained generator and process these signals using the same preprocessing steps as the normal signals.
+
+### 4. Detecting Faults
+Anomalies are detected by comparing the mean squared error (MSE) between the real and generated signals. Signals with high MSE scores are flagged as potentially faulty.
+
+## Visualization
+
+We visualize the processed normal and generated signals to compare their patterns and identify anomalies.
+
+
 **navigate**:
    ```bash
    cd backend
