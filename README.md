@@ -13,6 +13,17 @@ This project aims to develop a comprehensive web application for detecting damag
 - **CAD 3D Projection**: Develop algorithms for CAD 3D modeling to project identified paths of damage or faulty wiring.
 - **Web Application**: Build a responsive web application for end-users to interact with the tool.
 
+# Workflow
+
+1. **Image Upload**: Users upload images of aircraft surfaces or wire harnesses through the web interface.
+2. **Image Processing**: The uploaded image undergoes analysis using advanced imaging techniques and machine learning algorithms.
+3. **Damage Detection**: The system identifies any damage present on the aircraft surface, including dents, scratches, or structural deformities.
+4. **Faulty Wire Detection**: Additionally, the system locates and identifies any faulty wires within the aircraft harnesses.
+5. **Damage Assessment**: Machine learning algorithms assess the severity and extent of damage, providing detailed reports on the nature, size, and location of damage.
+6. **Repair Recommendations**: Based on the analysis, the system generates actionable repair recommendations for maintenance teams, including recommended repair methods and materials.
+7. **User Interaction**: Users can interact with the web application to view analysis results, download PDF reports, and explore repair recommendations.
+
+
 ## Technology Stack
 
 - **Frontend**: React.js for building the user interface.
