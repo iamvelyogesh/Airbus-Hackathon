@@ -58,7 +58,7 @@ This project aims to develop a comprehensive web application for detecting damag
 
 2. **Install Dependencies**:
    ```bash
-   cd aircraft-damage-detection
+   cd frontend
    npm install
    ```
 
@@ -67,7 +67,12 @@ This project aims to develop a comprehensive web application for detecting damag
    npm start
    ```
 
-4. **Access the Web Application**:
+4. **Run flask server**
+    ```bash
+   cd backend
+    python app.py
+   ```
+5. **Access the Web Application**:
    Open your browser and navigate to `http://localhost:3000`.
 
 ## Usage
